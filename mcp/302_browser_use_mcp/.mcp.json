@@ -1,13 +1,13 @@
 {
   "mcpServers": {
-    "firecrawl-mcp": {
+    "302ai-browser-use-mcp": {
       "command": "npx",
       "args": [
         "-y",
-        "firecrawl-mcp"
+        "@302ai/browser-use-mcp"
       ],
       "env": {
-        "FIRECRAWL_API_KEY": "fc-af1b3ac1a0c2402485402fd0e34da158"
+        "302AI_API_KEY": "YOUR_API_KEY_HERE"
       }
     }
   }

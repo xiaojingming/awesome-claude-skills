@@ -1,18 +1,12 @@
 {
-  "name": "PostgreSQL",
-  "description": "Read-only database access with schema inspection",
-  "author": "modelcontextprotocol",
-  "repository": "https://github.com/modelcontextprotocol/servers/blob/main/src/postgres",
-  "config": {
-    "mcpServers": {
-      "postgres": {
-        "command": "npx",
-        "args": [
-          "-y",
-          "@modelcontextprotocol/server-postgres",
-          "postgresql://localhost/mydb"
-        ]
-      }
+  "mcpServers": {
+    "postgres": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "@modelcontextprotocol/server-postgres",
+        "postgresql://localhost/mydb"
+      ]
     }
   }
 }

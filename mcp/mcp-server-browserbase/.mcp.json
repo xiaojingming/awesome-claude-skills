@@ -1,19 +1,13 @@
 {
-  "name": "Browserbase MCP Server",
-  "description": "Allow LLMs to control a browser with Browserbase and Stagehand",
-  "author": "browserbase",
-  "repository": "https://github.com/browserbase/mcp-server-browserbase",
-  "config": {
-    "mcpServers": {
-      "browserbase": {
-        "command": "npx",
-        "args": [
-          "-y",
-          "@browserbase/mcp-server-browserbase"
-        ],
-        "env": {
-          "BROWSERBASE_API_KEY": "YOUR_BROWSERBASE_API_KEY"
-        }
+  "mcpServers": {
+    "browserbase": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "@browserbase/mcp-server-browserbase"
+      ],
+      "env": {
+        "BROWSERBASE_API_KEY": "YOUR_BROWSERBASE_API_KEY"
       }
     }
   }

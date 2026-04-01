@@ -1,17 +1,11 @@
 {
-  "name": "Mcp Server Chatsum",
-  "description": "summarize chat message",
-  "author": "chatmcp",
-  "repository": "https://github.com/chatmcp/mcp-server-chatsum",
-  "config": {
-    "mcpServers": {
-      "chatsum": {
-        "command": "npx",
-        "args": [
-          "-y",
-          "@chatmcp/mcp-server-chatsum"
-        ]
-      }
+  "mcpServers": {
+    "chatsum": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "@chatmcp/mcp-server-chatsum"
+      ]
     }
   }
 }

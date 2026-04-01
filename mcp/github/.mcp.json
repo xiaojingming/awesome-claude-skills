@@ -1,23 +1,17 @@
 {
-  "name": "Github",
-  "description": "Repository management, file operations, and GitHub API integration",
-  "author": "modelcontextprotocol",
-  "repository": "https://github.com/modelcontextprotocol/servers/tree/main/src/github",
-  "config": {
-    "mcpServers": {
-      "github": {
-        "command": "docker",
-        "args": [
-          "run",
-          "-i",
-          "--rm",
-          "-e",
-          "GITHUB_PERSONAL_ACCESS_TOKEN",
-          "mcp/github"
-        ],
-        "env": {
-          "GITHUB_PERSONAL_ACCESS_TOKEN": "<YOUR_TOKEN>"
-        }
+  "mcpServers": {
+    "github": {
+      "command": "docker",
+      "args": [
+        "run",
+        "-i",
+        "--rm",
+        "-e",
+        "GITHUB_PERSONAL_ACCESS_TOKEN",
+        "mcp/github"
+      ],
+      "env": {
+        "GITHUB_PERSONAL_ACCESS_TOKEN": "<YOUR_TOKEN>"
       }
     }
   }

@@ -1,19 +1,13 @@
 {
-  "name": "HeyBeauty MCP Server",
-  "description": "HeyBeauty MCP Server for Virtual TryOn",
-  "author": "chatmcp",
-  "repository": "https://github.com/chatmcp/heybeauty-mcp",
-  "config": {
-    "mcpServers": {
-      "heybeauty-mcp": {
-        "command": "npx",
-        "args": [
-          "-y",
-          "heybeauty-mcp"
-        ],
-        "env": {
-          "HEYBEAUTY_API_KEY": "your-heybeauty-api-key"
-        }
+  "mcpServers": {
+    "heybeauty-mcp": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "heybeauty-mcp"
+      ],
+      "env": {
+        "HEYBEAUTY_API_KEY": "your-heybeauty-api-key"
       }
     }
   }

@@ -1,20 +1,14 @@
 {
-  "name": "Cloudflare",
-  "description": "Deploy, configure & interrogate your resources on the Cloudflare developer platform (e.g. Workers/KV/R2/D1)",
-  "author": "cloudflare",
-  "repository": "https://github.com/cloudflare/mcp-server-cloudflare",
-  "config": {
-    "mcpServers": {
-      "cloudflare": {
-        "command": "npx",
-        "args": [
-          "-y",
-          "@cloudflare/mcp-server-cloudflare"
-        ],
-        "env": {
-          "CLOUDFLARE_API_TOKEN": "YOUR_CLOUDFLARE_API_TOKEN",
-          "CLOUDFLARE_ACCOUNT_ID": "YOUR_CLOUDFLARE_ACCOUNT_ID"
-        }
+  "mcpServers": {
+    "cloudflare": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "@cloudflare/mcp-server-cloudflare"
+      ],
+      "env": {
+        "CLOUDFLARE_API_TOKEN": "YOUR_CLOUDFLARE_API_TOKEN",
+        "CLOUDFLARE_ACCOUNT_ID": "YOUR_CLOUDFLARE_ACCOUNT_ID"
       }
     }
   }

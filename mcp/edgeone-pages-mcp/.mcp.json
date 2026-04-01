@@ -1,16 +1,10 @@
 {
-  "name": "EdgeOne Pages MCP",
-  "description": "An MCP service designed for deploying HTML content to EdgeOne Pages and obtaining an accessible public URL.",
-  "author": "TencentEdgeOne",
-  "repository": "https://github.com/TencentEdgeOne/edgeone-pages-mcp",
-  "config": {
-    "mcpServers": {
-      "edgeone-pages-mcp-server": {
-        "command": "npx",
-        "args": [
-          "edgeone-pages-mcp"
-        ]
-      }
+  "mcpServers": {
+    "edgeone-pages-mcp-server": {
+      "command": "npx",
+      "args": [
+        "edgeone-pages-mcp"
+      ]
     }
   }
 }

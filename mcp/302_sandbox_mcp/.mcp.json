@@ -1,19 +1,13 @@
 {
-  "name": "302_sandbox_mcp",
-  "description": "Create a remote sandbox that can execute code/run commands/upload and download files.",
-  "author": "302ai",
-  "repository": "https://github.com/302ai/302_sandbox_mcp",
-  "config": {
-    "mcpServers": {
-      "302ai-sandbox-mcp": {
-        "command": "npx",
-        "args": [
-          "-y",
-          "@302ai/sandbox-mcp"
-        ],
-        "env": {
-          "302AI_API_KEY": "YOUR_API_KEY_HERE"
-        }
+  "mcpServers": {
+    "302ai-sandbox-mcp": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "@302ai/sandbox-mcp"
+      ],
+      "env": {
+        "302AI_API_KEY": "YOUR_API_KEY_HERE"
       }
     }
   }

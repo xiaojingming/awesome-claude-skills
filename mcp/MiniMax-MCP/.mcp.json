@@ -1,21 +1,15 @@
 {
-  "name": "MiniMax MCP",
-  "description": "Official MiniMax Model Context Protocol (MCP) server that enables interaction with powerful Text to Speech, image generation and video generation APIs.",
-  "author": "MiniMax-AI",
-  "repository": "https://github.com/MiniMax-AI/MiniMax-MCP",
-  "config": {
-    "mcpServers": {
-      "MiniMax": {
-        "command": "uvx",
-        "args": [
-          "minimax-mcp"
-        ],
-        "env": {
-          "MINIMAX_API_KEY": "<insert-your-api-key-here>",
-          "MINIMAX_MCP_BASE_PATH": "<local-output-dir-path>",
-          "MINIMAX_API_HOST": "https://api.minimaxi.chat",
-          "MINIMAX_API_RESOURCE_MODE": "<optional, [url|local], url is default, audio/image/video are downloaded locally or provided in URL format>"
-        }
+  "mcpServers": {
+    "MiniMax": {
+      "command": "uvx",
+      "args": [
+        "minimax-mcp"
+      ],
+      "env": {
+        "MINIMAX_API_KEY": "<insert-your-api-key-here>",
+        "MINIMAX_MCP_BASE_PATH": "<local-output-dir-path>",
+        "MINIMAX_API_HOST": "https://api.minimaxi.chat",
+        "MINIMAX_API_RESOURCE_MODE": "<optional, [url|local], url is default, audio/image/video are downloaded locally or provided in URL format>"
       }
     }
   }

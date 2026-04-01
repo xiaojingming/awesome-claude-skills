@@ -1,19 +1,13 @@
 {
-  "name": "Neon MCP Server",
-  "description": "MCP server for interacting with Neon Management API and databases",
-  "author": "neondatabase-labs",
-  "repository": "https://github.com/neondatabase-labs/mcp-server-neon",
-  "config": {
-    "mcpServers": {
-      "neon": {
-        "command": "npx",
-        "args": [
-          "-y",
-          "@neondatabase/mcp-server-neon",
-          "start",
-          "{NEON_API_KEY}"
-        ]
-      }
+  "mcpServers": {
+    "neon": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "@neondatabase/mcp-server-neon",
+        "start",
+        "{NEON_API_KEY}"
+      ]
     }
   }
 }

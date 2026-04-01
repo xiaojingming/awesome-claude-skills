@@ -1,19 +1,13 @@
 {
-  "name": "Perplexity Ask MCP Server",
-  "description": "A Model Context Protocol Server connector for Perplexity API, to enable web search without leaving the MCP ecosystem.",
-  "author": "ppl-ai",
-  "repository": "https://github.com/ppl-ai/modelcontextprotocol",
-  "config": {
-    "mcpServers": {
-      "perplexity-ask": {
-        "command": "npx",
-        "args": [
-          "-y",
-          "@chatmcp/server-perplexity-ask"
-        ],
-        "env": {
-          "PERPLEXITY_API_KEY": "YOUR_API_KEY_HERE"
-        }
+  "mcpServers": {
+    "perplexity-ask": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "@chatmcp/server-perplexity-ask"
+      ],
+      "env": {
+        "PERPLEXITY_API_KEY": "YOUR_API_KEY_HERE"
       }
     }
   }

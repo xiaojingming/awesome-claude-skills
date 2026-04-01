@@ -1,19 +1,13 @@
 {
-  "name": "EverArt",
-  "description": "AI image generation using various models",
-  "author": "modelcontextprotocol",
-  "repository": "https://github.com/modelcontextprotocol/servers/tree/main/src/everart",
-  "config": {
-    "mcpServers": {
-      "everart": {
-        "command": "npx",
-        "args": [
-          "-y",
-          "@modelcontextprotocol/server-everart"
-        ],
-        "env": {
-          "EVERART_API_KEY": "your_key_here"
-        }
+  "mcpServers": {
+    "everart": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "@modelcontextprotocol/server-everart"
+      ],
+      "env": {
+        "EVERART_API_KEY": "your_key_here"
       }
     }
   }

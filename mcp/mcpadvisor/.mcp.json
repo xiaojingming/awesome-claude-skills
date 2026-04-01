@@ -1,17 +1,11 @@
 {
-  "name": "MCP Advisor",
-  "description": "MCP Advisor & Installation - Use the right MCP server for your needs",
-  "author": "istarwyh",
-  "repository": "https://github.com/istarwyh/mcpadvisor",
-  "config": {
-    "mcpServers": {
-      "mcpadvisor": {
-        "command": "npx",
-        "args": [
-          "-y",
-          "@xiaohui-wang/mcpadvisor"
-        ]
-      }
+  "mcpServers": {
+    "mcpadvisor": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "@xiaohui-wang/mcpadvisor"
+      ]
     }
   }
 }

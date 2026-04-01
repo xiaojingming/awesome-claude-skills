@@ -1,20 +1,14 @@
 {
-  "name": "Mailtrap Email API",
-  "description": "An MCP server that provides a tool for sending transactional emails via Mailtrap",
-  "author": "Mailtrap",
-  "repository": "https://github.com/railsware/mailtrap-mcp",
-  "config": {
-    "mcpServers": {
-      "mailtrap": {
-        "command": "npx",
-        "args": [
-          "-y",
-          "mcp-mailtrap"
-        ],
-        "env": {
-          "MAILTRAP_API_TOKEN": "your_mailtrap_api_token",
-          "DEFAULT_FROM_EMAIL": "your_sender@example.com"
-        }
+  "mcpServers": {
+    "mailtrap": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "mcp-mailtrap"
+      ],
+      "env": {
+        "MAILTRAP_API_TOKEN": "your_mailtrap_api_token",
+        "DEFAULT_FROM_EMAIL": "your_sender@example.com"
       }
     }
   }

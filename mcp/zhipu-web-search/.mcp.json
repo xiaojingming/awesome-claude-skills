@@ -1,13 +1,7 @@
 {
-  "name": "Zhipu Web Search",
-  "description": "Zhipu Web Search MCP Server is a search engine specifically designed for large models. It integrates four search engines, allowing users to flexibly compare and switch between them.",
-  "author": "BigModel",
-  "repository": "https://github.com/THUDM",
-  "config": {
-    "mcpServers": {
-      "zhipu-web-search-sse": {
-        "url": "https://open.bigmodel.cn/api/mcp/web_search/sse?Authorization={you ak/sk}"
-      }
+  "mcpServers": {
+    "zhipu-web-search-sse": {
+      "url": "https://open.bigmodel.cn/api/mcp/web_search/sse?Authorization={you ak/sk}"
     }
   }
 }

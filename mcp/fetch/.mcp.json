@@ -1,16 +1,10 @@
 {
-  "name": "Fetch",
-  "description": "Web content fetching and conversion for efficient LLM usage",
-  "author": "test",
-  "repository": "https://github.com/modelcontextprotocol/servers/tree/main/src/fetch",
-  "config": {
-    "mcpServers": {
-      "fetch": {
-        "args": [
-          "mcp-server-fetch"
-        ],
-        "command": "uvx"
-      }
+  "mcpServers": {
+    "fetch": {
+      "args": [
+        "mcp-server-fetch"
+      ],
+      "command": "uvx"
     }
   }
 }

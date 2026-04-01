@@ -1,16 +1,10 @@
 {
-  "name": "MCP Server for Milvus",
-  "description": "The Milvus MCP server enables AI applications to interact with Milvus vector databases using natural language commands. It allows AI models to perform vector searches, manage collections, and retrieve data without writing custom database queries.",
-  "author": "zilliztech",
-  "repository": "https://github.com/zilliztech/mcp-server-milvus",
-  "config": {
-    "mcpServers": {
-      "milvus": {
-        "command": "uvx",
-        "args": [
-          "mcp-server-milvus"
-        ]
-      }
+  "mcpServers": {
+    "milvus": {
+      "command": "uvx",
+      "args": [
+        "mcp-server-milvus"
+      ]
     }
   }
 }

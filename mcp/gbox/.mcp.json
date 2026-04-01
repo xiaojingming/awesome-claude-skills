@@ -1,17 +1,11 @@
 {
-  "name": "GBOX Android MCP",
-  "description": "GBOX provides environments for AI Agents to operate computer and mobile devices. Mobile Scenario: Your agents can use GBOX to develop/test android apps, or run apps on the Android to complete various tasks.",
-  "author": "babelcloud",
-  "repository": "https://github.com/babelcloud/gbox",
-  "config": {
-    "mcpServers": {
-      "gbox-android": {
-        "command": "npx",
-        "args": [
-          "-y",
-          "@gbox.ai/mcp-android-server@latest"
-        ]
-      }
+  "mcpServers": {
+    "gbox-android": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "@gbox.ai/mcp-android-server@latest"
+      ]
     }
   }
 }

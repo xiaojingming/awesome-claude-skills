@@ -1,17 +1,11 @@
 {
-  "name": "Howtocook Mcp",
-  "description": "Based on Anduin2017/HowToCook (Programmer's Guide to Cooking at Home), MCP Server helps you recommend recipes, plan meals, and solve the century old problem of what to eat today",
-  "author": "worryzyy",
-  "repository": "https://github.com/worryzyy/HowToCook-mcp",
-  "config": {
-    "mcpServers": {
-      "howtocook-mcp": {
-        "command": "npx",
-        "args": [
-          "-y",
-          "howtocook-mcp"
-        ]
-      }
+  "mcpServers": {
+    "howtocook-mcp": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "howtocook-mcp"
+      ]
     }
   }
 }

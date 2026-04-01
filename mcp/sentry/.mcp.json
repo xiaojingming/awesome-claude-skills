@@ -1,18 +1,12 @@
 {
-  "name": "Sentry",
-  "description": "Retrieving and analyzing issues from Sentry.io",
-  "author": "modelcontextprotocol",
-  "repository": "https://github.com/modelcontextprotocol/servers/blob/main/src/sentry",
-  "config": {
-    "mcpServers": {
-      "sentry": {
-        "command": "uvx",
-        "args": [
-          "mcp-server-sentry",
-          "--auth-token",
-          "YOUR_SENTRY_TOKEN"
-        ]
-      }
+  "mcpServers": {
+    "sentry": {
+      "command": "uvx",
+      "args": [
+        "mcp-server-sentry",
+        "--auth-token",
+        "YOUR_SENTRY_TOKEN"
+      ]
     }
   }
 }
