@@ -1,0 +1,20 @@
+{
+  "name": "302_browser_use_mcp",
+  "description": "Automatically create a remote browser to complete your specified tasks, developed based on Browser Use + Sandbox.",
+  "author": "302ai",
+  "repository": "https://github.com/302ai/302_browser_use_mcp",
+  "config": {
+    "mcpServers": {
+      "302ai-browser-use-mcp": {
+        "command": "npx",
+        "args": [
+          "-y",
+          "@302ai/browser-use-mcp"
+        ],
+        "env": {
+          "302AI_API_KEY": "YOUR_API_KEY_HERE"
+        }
+      }
+    }
+  }
+}

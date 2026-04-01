@@ -1,0 +1,19 @@
+{
+  "name": "Serper MCP Server",
+  "description": "A Serper MCP Server that provides Google Search via Serper, enabling LLMs to retrieve search result information from Google.",
+  "author": "garymengcom",
+  "repository": "https://github.com/garymengcom/serper-mcp-server",
+  "config": {
+    "mcpServers": {
+      "serper": {
+        "command": "uvx",
+        "args": [
+          "serper-mcp-server"
+        ],
+        "env": {
+          "SERPER_API_KEY": "<Your Serper API key>"
+        }
+      }
+    }
+  }
+}

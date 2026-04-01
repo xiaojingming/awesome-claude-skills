@@ -1,0 +1,24 @@
+{
+  "name": "Google Maps",
+  "description": "Location services, directions, and place details",
+  "author": "modelcontextprotocol",
+  "repository": "https://github.com/modelcontextprotocol/servers/tree/main/src/google-maps",
+  "config": {
+    "mcpServers": {
+      "google-maps": {
+        "command": "docker",
+        "args": [
+          "run",
+          "-i",
+          "--rm",
+          "-e",
+          "GOOGLE_MAPS_API_KEY",
+          "mcp/google-maps"
+        ],
+        "env": {
+          "GOOGLE_MAPS_API_KEY": "<YOUR_API_KEY>"
+        }
+      }
+    }
+  }
+}

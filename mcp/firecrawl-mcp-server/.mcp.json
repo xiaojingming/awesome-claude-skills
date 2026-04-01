@@ -1,0 +1,20 @@
+{
+  "name": "Firecrawl Mcp Server",
+  "description": "Official Firecrawl MCP Server - Adds powerful web scraping to Cursor, Claude and any other LLM clients.",
+  "author": "mendableai",
+  "repository": "https://github.com/mendableai/firecrawl-mcp-server",
+  "config": {
+    "mcpServers": {
+      "firecrawl-mcp": {
+        "command": "npx",
+        "args": [
+          "-y",
+          "firecrawl-mcp"
+        ],
+        "env": {
+          "FIRECRAWL_API_KEY": "fc-af1b3ac1a0c2402485402fd0e34da158"
+        }
+      }
+    }
+  }
+}

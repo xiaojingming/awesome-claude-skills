@@ -1,0 +1,16 @@
+{
+  "name": "Playwright Mcp",
+  "description": "Playwright MCP server - Browser automation and web scraping",
+  "author": "microsoft",
+  "repository": "https://github.com/microsoft/playwright-mcp",
+  "config": {
+    "mcpServers": {
+      "playwright": {
+        "command": "npx",
+        "args": [
+          "@playwright/mcp@latest"
+        ]
+      }
+    }
+  }
+}

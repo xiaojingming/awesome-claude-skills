@@ -1,0 +1,19 @@
+{
+  "name": "Jina AI MCP Tools",
+  "description": "A Model Context Protocol (MCP) server that integrates with Jina AI Search Foundation APIs.",
+  "author": "PsychArch",
+  "repository": "https://github.com/PsychArch/jina-mcp-tools",
+  "config": {
+    "mcpServers": {
+      "jina-mcp-tools": {
+        "command": "npx",
+        "args": [
+          "jina-mcp-tools"
+        ],
+        "env": {
+          "JINA_API_KEY": "your_jina_api_key_here"
+        }
+      }
+    }
+  }
+}

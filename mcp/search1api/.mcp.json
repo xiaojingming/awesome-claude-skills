@@ -1,0 +1,20 @@
+{
+  "name": "Search1API",
+  "description": "One API for Search, Crawling, and Sitemaps",
+  "author": "fatwang2",
+  "repository": "https://github.com/fatwang2/search1api-mcp",
+  "config": {
+    "mcpServers": {
+      "search1api": {
+        "command": "npx",
+        "args": [
+          "-y",
+          "search1api-mcp"
+        ],
+        "env": {
+          "SEARCH1API_KEY": "YOUR_SEARCH1API_KEY"
+        }
+      }
+    }
+  }
+}
